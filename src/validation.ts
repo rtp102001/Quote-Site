@@ -1,5 +1,5 @@
 import { isCategory, type CategoryId } from "./categories";
-import { lookupZip } from "./geo";
+import { lookupZip, serviceZip } from "./geo";
 
 export const MIN_PHOTOS = 3;
 export const MAX_PHOTOS = 5;
@@ -11,6 +11,8 @@ export interface QuoteInput {
   name: string; email: string; phone: string; zip: string; category: CategoryId; description: string;
   photos: PhotoInput[];
 }
+
+export const OUTSIDE_AREA_MSG = "Sorry, QuoteLocal only serves Johnston County, NC right now (Smithfield, Clayton, Selma, Kenly, Benson, Four Oaks, Princeton, Pine Level, Micro, Wilson's Mills and nearby). We hope to come to your area soon!";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
@@ -41,7 +43,7 @@ export function validateQuote(raw: {
   if (!EMAIL_RE.test(email) || email.length > 254) errors.push("A valid email is required.");
   if (phone.length !== 10) errors.push("A valid 10-digit US phone number is required.");
   if (!/^\d{5}$/.test(zip)) errors.push("ZIP must be 5 digits.");
-  else if (!lookupZip(zip)) errors.push("Sorry, we only serve North Carolina ZIP codes in our coverage table right now.");
+  else if (!serviceZip(zip)) errors.push(OUTSIDE_AREA_MSG);
   if (!isCategory(raw.category)) errors.push("Choose a service category.");
   if (description.length < 10 || description.length > 4000) errors.push("Description is required (10-4000 characters).");
   const photos = raw.photos.filter((p) => p.bytes.length > 0);
@@ -70,7 +72,7 @@ export function validateSignup(raw: Record<string, string | string[] | undefined
   if (business_name.length < 2 || business_name.length > 150) errors.push("Business name is required.");
   if (!EMAIL_RE.test(email)) errors.push("A valid email is required.");
   if (phone.length !== 10) errors.push("A valid 10-digit phone number is required.");
-  if (!lookupZip(zip)) errors.push("A North Carolina ZIP in our coverage table is required.");
+  if (!lookupZip(zip)) errors.push("Your business ZIP must be in or near Johnston County, NC.");
   if (!Number.isFinite(radius) || radius < 5 || radius > 100) errors.push("Service radius must be 5-100 miles.");
   if (cats.length === 0 || !cats.every(isCategory)) errors.push("Choose at least one valid category.");
   if (errors.length) return { ok: false as const, errors };

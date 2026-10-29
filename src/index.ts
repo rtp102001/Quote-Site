@@ -29,9 +29,9 @@ function randomToken(): string {
 
 async function handleQuote(req: Request, env: Env): Promise<Response> {
   const asJson = wantsJson(req);
-  const fail = (errors: string[], status = 400) => asJson ? json({ ok: false, errors }, status) : withStatus(homePage(env.TURNSTILE_SITE_KEY, errors), status);
   let form: FormData;
-  try { form = await req.formData(); } catch { return fail(["Invalid form submission."]); }
+  try { form = await req.formData(); } catch { return asJson ? json({ ok: false, errors: ["Invalid form submission."] }, 400) : withStatus(homePage(env.TURNSTILE_SITE_KEY, ["Invalid form submission."]), 400); }
+  const fail = (errors: string[], status = 400) => asJson ? json({ ok: false, errors }, status) : withStatus(homePage(env.TURNSTILE_SITE_KEY, errors, formValues(form)), status);
   const ip = clientIp(req);
   if (!(await verifyTurnstile(env.TURNSTILE_SECRET_KEY, form.get("cf-turnstile-response") as string | null, ip)))
     return fail(["Spam check failed. Please try again."], 403);
@@ -67,7 +67,7 @@ async function handleQuote(req: Request, env: Env): Promise<Response> {
   const verifyUrl = `${env.PUBLIC_BASE_URL}/verify?token=${encodeURIComponent(token)}`;
   await createEmailSender(env).send({ to: q.email, kind: "verify", requestId: id, ...renderVerifyEmail({ name: q.name, verifyUrl, categoryId: q.category }) });
   if (asJson) return json({ ok: true, requestId: id, status: "pending_verification" }, 202);
-  return messagePage("Check your email", `Thanks, ${esc(q.name)}! We sent a confirmation link to <b>${esc(q.email)}</b>. Click it to send your request to local contractors.`, 202);
+  return messagePage("Check your email", `Thanks, ${esc(q.name)}! We sent a confirmation link to <b>${esc(q.email)}</b>. Click it and we'll send your request to top-rated local pros. Don't see it? Check your spam folder.`, 202);
 }
 
 export async function dispatchRequest(env: Env, requestId: string) {
@@ -104,7 +104,7 @@ async function handleVerify(url: URL, env: Env): Promise<Response> {
   if (!claim.meta.changes) return messagePage("Already sent", "Your request was already confirmed.");
   const top = await dispatchRequest(env, r.id);
   if (wantsJsonUrl(url)) return json({ ok: true, requestId: r.id, contractors: top.map((c) => ({ id: c.id, business_name: c.business_name, score: +c.score.toFixed(4), distance_miles: c.distance_miles, rating: c.rating, review_count: c.review_count })) });
-  return messagePage("Request sent", `Your email is confirmed. Your ${esc(categoryLabel(r.category))} request was sent to <b>${top.length}</b> local contractors. They'll contact you directly.`);
+  return messagePage("You're all set!", top.length ? `Your ${esc(categoryLabel(r.category))} request is on its way to <b>${top.length}</b> top-rated Johnston County pros. Expect calls or emails soon, usually within a business day.` : `Your email is confirmed, but no ${esc(categoryLabel(r.category))} pros cover your area yet. We'll keep your request and follow up.`);
 }
 const wantsJsonUrl = (u: URL) => u.searchParams.get("format") === "json";
 
@@ -130,7 +130,7 @@ async function handleSignup(req: Request, env: Env): Promise<Response> {
     ...c.categories.map((cat) => env.DB.prepare("INSERT INTO contractor_categories (contractor_id, category) VALUES (?, ?)").bind(id, cat)),
   ]);
   if (asJson) return json({ ok: true, contractorId: id }, 201);
-  return messagePage("You're signed up", `Thanks, ${esc(c.business_name)}! You'll get matching quote requests by email. New sign-ups start with no rating, so ranking improves as reviews are added.`, 201);
+  return messagePage("Welcome aboard!", `Thanks, ${esc(c.business_name)}! Matching Johnston County requests will arrive at ${esc(c.email)}. New listings start without reviews, so your ranking grows as ratings come in.`, 201);
 }
 
 async function handlePhoto(url: URL, env: Env): Promise<Response> {
@@ -156,6 +156,7 @@ ${results.map((r) => `<tr><td>${esc(r.created_at)}</td><td>${esc(r.to_address)}<
 }
 
 function withStatus(r: Response, status: number) { return new Response(r.body, { status, headers: r.headers }); }
+const formValues = (f: FormData) => Object.fromEntries(["name", "email", "phone", "zip", "category", "description"].map((k) => [k, String(f.get(k) ?? "")]));
 
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {

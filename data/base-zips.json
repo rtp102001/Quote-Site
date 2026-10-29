@@ -1,0 +1,164 @@
+{
+  "27501": {
+    "city": "Angier (Johnston side)",
+    "lat": 35.515,
+    "lon": -78.67,
+    "partial": true
+  },
+  "27504": {
+    "city": "Benson",
+    "lat": 35.3821,
+    "lon": -78.5486,
+    "partial": false
+  },
+  "27520": {
+    "city": "Clayton",
+    "lat": 35.6507,
+    "lon": -78.4564,
+    "partial": false
+  },
+  "27524": {
+    "city": "Four Oaks",
+    "lat": 35.4457,
+    "lon": -78.4264,
+    "partial": false
+  },
+  "27526": {
+    "city": "Fuquay-Varina",
+    "lat": 35.5843,
+    "lon": -78.8,
+    "partial": false
+  },
+  "27527": {
+    "city": "Clayton / Archer Lodge",
+    "lat": 35.667,
+    "lon": -78.378,
+    "partial": false
+  },
+  "27528": {
+    "city": "Clayton (PO Box)",
+    "lat": 35.6507,
+    "lon": -78.4564,
+    "partial": false
+  },
+  "27529": {
+    "city": "Garner / Cleveland (Johnston side)",
+    "lat": 35.615,
+    "lon": -78.55,
+    "partial": true
+  },
+  "27530": {
+    "city": "Goldsboro",
+    "lat": 35.3849,
+    "lon": -77.9928,
+    "partial": false
+  },
+  "27542": {
+    "city": "Kenly",
+    "lat": 35.5954,
+    "lon": -78.1247,
+    "partial": false
+  },
+  "27546": {
+    "city": "Lillington",
+    "lat": 35.3993,
+    "lon": -78.8164,
+    "partial": false
+  },
+  "27555": {
+    "city": "Micro",
+    "lat": 35.5638,
+    "lon": -78.2039,
+    "partial": false
+  },
+  "27557": {
+    "city": "Middlesex (Johnston side)",
+    "lat": 35.75,
+    "lon": -78.23,
+    "partial": true
+  },
+  "27568": {
+    "city": "Pine Level",
+    "lat": 35.5129,
+    "lon": -78.2447,
+    "partial": false
+  },
+  "27569": {
+    "city": "Princeton",
+    "lat": 35.4663,
+    "lon": -78.1603,
+    "partial": false
+  },
+  "27576": {
+    "city": "Selma",
+    "lat": 35.5363,
+    "lon": -78.2844,
+    "partial": false
+  },
+  "27577": {
+    "city": "Smithfield",
+    "lat": 35.5085,
+    "lon": -78.3394,
+    "partial": false
+  },
+  "27591": {
+    "city": "Wendell (Johnston side)",
+    "lat": 35.73,
+    "lon": -78.35,
+    "partial": true
+  },
+  "27592": {
+    "city": "Willow Spring",
+    "lat": 35.546,
+    "lon": -78.672,
+    "partial": true
+  },
+  "27593": {
+    "city": "Wilson's Mills",
+    "lat": 35.5843,
+    "lon": -78.3525,
+    "partial": false
+  },
+  "27597": {
+    "city": "Zebulon (Johnston side)",
+    "lat": 35.75,
+    "lon": -78.3,
+    "partial": true
+  },
+  "27603": {
+    "city": "Raleigh (Johnston side)",
+    "lat": 35.63,
+    "lon": -78.6,
+    "partial": true
+  },
+  "27610": {
+    "city": "Raleigh (SE)",
+    "lat": 35.766,
+    "lon": -78.58,
+    "partial": false
+  },
+  "27863": {
+    "city": "Pikeville",
+    "lat": 35.4963,
+    "lon": -77.9822,
+    "partial": false
+  },
+  "27893": {
+    "city": "Wilson",
+    "lat": 35.7213,
+    "lon": -77.9155,
+    "partial": false
+  },
+  "28334": {
+    "city": "Dunn (Johnston side)",
+    "lat": 35.33,
+    "lon": -78.55,
+    "partial": true
+  },
+  "28366": {
+    "city": "Newton Grove (Johnston side)",
+    "lat": 35.28,
+    "lon": -78.38,
+    "partial": true
+  }
+}

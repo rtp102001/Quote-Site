@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { sniffImageType, validateQuote, validateSignup, MAX_PHOTO_BYTES } from "../src/validation";
+import { OUTSIDE_AREA_MSG, sniffImageType, validateQuote, validateSignup, MAX_PHOTO_BYTES } from "../src/validation";
 import { JPG, PNG, photo } from "./helpers";
 
 const good = { name: "Pat Homeowner", email: "Pat@Example.com", phone: "(919) 555-0123", zip: "27542",
@@ -25,9 +25,16 @@ describe("validateQuote", () => {
     const big = new Uint8Array(MAX_PHOTO_BYTES + 1); big.set(PNG);
     expect(validateQuote({ ...good, photos: [photo(), photo(), photo("big.png", "image/png", big)] }).ok).toBe(false);
   });
-  it("rejects unknown category and non-NC ZIP", () => {
+  it("rejects unknown category", () => {
     expect(validateQuote({ ...good, category: "pools" }).ok).toBe(false);
-    expect(validateQuote({ ...good, zip: "10001" }).ok).toBe(false);
+  });
+  it("only accepts Johnston County ZIPs, with a friendly message", () => {
+    for (const z of ["27601", "27893", "27530", "10001"]) {
+      const r = validateQuote({ ...good, zip: z });
+      expect(r.ok).toBe(false);
+      if (!r.ok) expect(r.errors).toContain(OUTSIDE_AREA_MSG);
+    }
+    for (const z of ["27577", "27520", "27504", "27568", "27593"]) expect(validateQuote({ ...good, zip: z }).ok).toBe(true);
   });
   it("sniffs image types", () => {
     expect(sniffImageType(PNG)).toBe("image/png");

@@ -1,6 +1,6 @@
-# QuoteLocal NC (placeholder brand) — MVP
+# QuoteLocal — Johnston County, NC (MVP)
 
-Homeowners in North Carolina describe a job, upload 3–5 photos, confirm their email, and the request goes to the
+Homeowners in **Johnston County, NC only** describe a job, upload 3–5 photos, confirm their email, and the request goes to the
 **top 10 contractors** for that service near their ZIP. Contractors contact the homeowner directly.
 No payments, no project management.
 
@@ -24,8 +24,9 @@ src/email.ts        EmailSender interface, Console/Resend/Cloudflare senders, em
 src/ratelimit.ts    D1 fixed-window rate limits
 src/turnstile.ts    Server-side Turnstile siteverify
 src/categories.ts   The 5 launch categories
-data/nc-zips.json   Bundled NC ZIP → approx lat/lon table (267 ZIPs, city-center approximations)
-data/contractors.json, seed/contractors.sql   SAMPLE/FAKE contractors (100: 20 per category)
+data/service-zips.json  The 21 Johnston County ZIPs homeowners may submit from (incl. border ZIPs; verified vs zipdatamaps/hometownlocator)
+data/base-zips.json     Service ZIPs + 6 nearby towns where contractors may be based (Wilson, Goldsboro, SE Raleigh, Fuquay-Varina, Lillington, Pikeville)
+data/contractors.json, seed/contractors.sql   SAMPLE/FAKE contractors (100: 20 per category, 14 in-county + 6 nearby)
 scripts/generate-data.mjs   Regenerates the ZIP table and sample seed
 scripts/e2e.mjs     End-to-end test against wrangler dev → writes E2E_RESULTS.md
 migrations/0001_init.sql    D1 schema
@@ -44,6 +45,16 @@ npm test                # unit tests
 - Form: http://127.0.0.1:8787/ · Contractor sign-up: /contractors/signup
 - Mock outbox (dev only): http://127.0.0.1:8787/dev/outbox (click a subject to see the rendered email)
 
+## Service area
+Only Johnston County ZIPs are accepted; any other ZIP gets a friendly "we only serve Johnston County right now" message.
+To expand, add ZIPs in `scripts/generate-data.mjs` and run `npm run generate:data`.
+
+## Design
+Warm cream/terracotta/forest-green palette, system font stack, inline SVG icons (no external assets), mobile-first,
+skip link, visible focus rings, labeled fields, aria-live photo counter. Photo picker supports drag-and-drop,
+previews with remove buttons, and a 3–5 counter. Emails are table-based with inline styles for Gmail/Outlook.
+Screenshots are in `screenshots/`.
+
 ## Flow
 1. `POST /api/quote` (multipart): Turnstile check → validation → rate limits (5/hour per IP, 3/day per email) →
    photos to R2 → request saved `pending` → verification email (token stored as SHA-256 hash).
@@ -51,11 +62,11 @@ npm test                # unit tests
    (reply-to = homeowner, photo links are tokenized), and sends the homeowner a confirmation. Re-clicks don't resend.
 
 ## Ranking
-Only contractors in the category whose service radius covers the homeowner's ZIP (and ≤ 75 mi) are eligible.
+Only contractors in the category whose service radius covers the homeowner's ZIP (and ≤ 50 mi) are eligible.
 ```
 rating    = ((rating*n + 4.0*10) / (n + 10)) / 5      # Bayesian: few reviews pull toward 4.0
 volume    = min(1, log10(1+n) / log10(501))
-proximity = max(0, 1 - miles/75)
+proximity = max(0, 1 - miles/50)
 score     = 0.50*rating + 0.20*volume + 0.30*proximity  # top 10 by score
 ```
 New sign-ups start at 0 reviews, so they rank low until a real ratings source is wired in.

@@ -1,12 +1,12 @@
 [
   {
     "id": "seed_landscaping_01",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Kenly Lawn & Landscape",
+    "contactName": "Avery Sample",
+    "businessName": "SAMPLE: Smithfield Lawn & Landscape",
     "email": "sample.landscaping.01@example.com",
-    "phone": "5550101001",
-    "zip": "27542",
-    "serviceRadiusMiles": 50,
+    "phone": "5550100100",
+    "zip": "27577",
+    "serviceRadiusMiles": 30,
     "rating": 4.9,
     "reviewCount": 240,
     "categories": [
@@ -15,12 +15,12 @@
   },
   {
     "id": "seed_landscaping_02",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Micro Lawn & Landscape",
+    "contactName": "Blake Sample",
+    "businessName": "SAMPLE: Clayton Lawn & Landscape",
     "email": "sample.landscaping.02@example.com",
-    "phone": "5550101002",
-    "zip": "27555",
-    "serviceRadiusMiles": 55,
+    "phone": "5550100101",
+    "zip": "27520",
+    "serviceRadiusMiles": 35,
     "rating": 4.85,
     "reviewCount": 180,
     "categories": [
@@ -29,12 +29,12 @@
   },
   {
     "id": "seed_landscaping_03",
-    "contactName": "Jordan Sample",
+    "contactName": "Casey Sample",
     "businessName": "SAMPLE: Selma Lawn & Landscape",
     "email": "sample.landscaping.03@example.com",
-    "phone": "5550101003",
+    "phone": "5550100102",
     "zip": "27576",
-    "serviceRadiusMiles": 60,
+    "serviceRadiusMiles": 40,
     "rating": 4.8,
     "reviewCount": 160,
     "categories": [
@@ -43,12 +43,12 @@
   },
   {
     "id": "seed_landscaping_04",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Smithfield Lawn & Landscape",
+    "contactName": "Drew Sample",
+    "businessName": "SAMPLE: Kenly Lawn & Landscape",
     "email": "sample.landscaping.04@example.com",
-    "phone": "5550101004",
-    "zip": "27577",
-    "serviceRadiusMiles": 65,
+    "phone": "5550100103",
+    "zip": "27542",
+    "serviceRadiusMiles": 30,
     "rating": 4.7,
     "reviewCount": 120,
     "categories": [
@@ -57,12 +57,12 @@
   },
   {
     "id": "seed_landscaping_05",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Wilson Lawn & Landscape",
+    "contactName": "Emerson Sample",
+    "businessName": "SAMPLE: Benson Lawn & Landscape",
     "email": "sample.landscaping.05@example.com",
-    "phone": "5550101005",
-    "zip": "27893",
-    "serviceRadiusMiles": 70,
+    "phone": "5550100104",
+    "zip": "27504",
+    "serviceRadiusMiles": 35,
     "rating": 4.6,
     "reviewCount": 90,
     "categories": [
@@ -71,12 +71,12 @@
   },
   {
     "id": "seed_landscaping_06",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Lucama Lawn & Landscape",
+    "contactName": "Finley Sample",
+    "businessName": "SAMPLE: Four Oaks Lawn & Landscape",
     "email": "sample.landscaping.06@example.com",
-    "phone": "5550101006",
-    "zip": "27851",
-    "serviceRadiusMiles": 50,
+    "phone": "5550100105",
+    "zip": "27524",
+    "serviceRadiusMiles": 40,
     "rating": 4.55,
     "reviewCount": 70,
     "categories": [
@@ -85,12 +85,12 @@
   },
   {
     "id": "seed_landscaping_07",
-    "contactName": "Quinn Sample",
-    "businessName": "SAMPLE: Bailey Lawn & Landscape",
+    "contactName": "Gray Sample",
+    "businessName": "SAMPLE: Clayton / Archer Lodge Lawn & Landscape",
     "email": "sample.landscaping.07@example.com",
-    "phone": "5550101007",
-    "zip": "27807",
-    "serviceRadiusMiles": 55,
+    "phone": "5550100106",
+    "zip": "27527",
+    "serviceRadiusMiles": 30,
     "rating": 4.4,
     "reviewCount": 50,
     "categories": [
@@ -99,12 +99,12 @@
   },
   {
     "id": "seed_landscaping_08",
-    "contactName": "Drew Sample",
-    "businessName": "SAMPLE: Goldsboro Lawn & Landscape",
+    "contactName": "Harper Sample",
+    "businessName": "SAMPLE: Princeton Lawn & Landscape",
     "email": "sample.landscaping.08@example.com",
-    "phone": "5550101008",
-    "zip": "27530",
-    "serviceRadiusMiles": 60,
+    "phone": "5550100107",
+    "zip": "27569",
+    "serviceRadiusMiles": 35,
     "rating": 4.3,
     "reviewCount": 35,
     "categories": [
@@ -113,12 +113,12 @@
   },
   {
     "id": "seed_landscaping_09",
-    "contactName": "Morgan Sample",
-    "businessName": "SAMPLE: Princeton Lawn & Landscape",
+    "contactName": "Jordan Sample",
+    "businessName": "SAMPLE: Micro Lawn & Landscape",
     "email": "sample.landscaping.09@example.com",
-    "phone": "5550101009",
-    "zip": "27569",
-    "serviceRadiusMiles": 65,
+    "phone": "5550100108",
+    "zip": "27555",
+    "serviceRadiusMiles": 40,
     "rating": 4.2,
     "reviewCount": 22,
     "categories": [
@@ -127,950 +127,768 @@
   },
   {
     "id": "seed_landscaping_10",
-    "contactName": "Taylor Sample",
-    "businessName": "SAMPLE: Clayton Lawn & Landscape",
+    "contactName": "Kendall Sample",
+    "businessName": "SAMPLE: Pine Level Lawn & Landscape",
     "email": "sample.landscaping.10@example.com",
-    "phone": "5550101010",
-    "zip": "27520",
-    "serviceRadiusMiles": 70,
+    "phone": "5550100109",
+    "zip": "27568",
+    "serviceRadiusMiles": 30,
     "rating": 4.95,
-    "reviewCount": 14,
+    "reviewCount": 8,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_11",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Wendell Lawn & Landscape",
+    "contactName": "Logan Sample",
+    "businessName": "SAMPLE: Wilson's Mills Lawn & Landscape",
     "email": "sample.landscaping.11@example.com",
-    "phone": "5550101011",
-    "zip": "27591",
-    "serviceRadiusMiles": 50,
-    "rating": 3.9,
-    "reviewCount": 80,
+    "phone": "5550100110",
+    "zip": "27593",
+    "serviceRadiusMiles": 35,
+    "rating": 4.1,
+    "reviewCount": 60,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_12",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Zebulon Lawn & Landscape",
+    "contactName": "Morgan Sample",
+    "businessName": "SAMPLE: Willow Spring Lawn & Landscape",
     "email": "sample.landscaping.12@example.com",
-    "phone": "5550101012",
-    "zip": "27597",
-    "serviceRadiusMiles": 55,
-    "rating": 3.7,
-    "reviewCount": 40,
+    "phone": "5550100111",
+    "zip": "27592",
+    "serviceRadiusMiles": 40,
+    "rating": 3.9,
+    "reviewCount": 140,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_13",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Raleigh Lawn & Landscape",
+    "contactName": "Parker Sample",
+    "businessName": "SAMPLE: Angier Lawn & Landscape",
     "email": "sample.landscaping.13@example.com",
-    "phone": "5550101013",
-    "zip": "27601",
-    "serviceRadiusMiles": 60,
-    "rating": 4.5,
-    "reviewCount": 10,
+    "phone": "5550100112",
+    "zip": "27501",
+    "serviceRadiusMiles": 30,
+    "rating": 4.75,
+    "reviewCount": 200,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_14",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Garner Lawn & Landscape",
+    "contactName": "Quinn Sample",
+    "businessName": "SAMPLE: Garner / Cleveland Lawn & Landscape",
     "email": "sample.landscaping.14@example.com",
-    "phone": "5550101014",
+    "phone": "5550100113",
     "zip": "27529",
-    "serviceRadiusMiles": 65,
-    "rating": 4.1,
-    "reviewCount": 18,
+    "serviceRadiusMiles": 35,
+    "rating": 4.5,
+    "reviewCount": 15,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_15",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Knightdale Lawn & Landscape",
+    "contactName": "Reese Sample",
+    "businessName": "SAMPLE: Wilson Lawn & Landscape",
     "email": "sample.landscaping.15@example.com",
-    "phone": "5550101015",
-    "zip": "27545",
-    "serviceRadiusMiles": 70,
-    "rating": 4,
-    "reviewCount": 6,
+    "phone": "5550100114",
+    "zip": "27893",
+    "serviceRadiusMiles": 40,
+    "rating": 4.65,
+    "reviewCount": 110,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_16",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Rocky Mount Lawn & Landscape",
+    "contactName": "Sawyer Sample",
+    "businessName": "SAMPLE: Goldsboro Lawn & Landscape",
     "email": "sample.landscaping.16@example.com",
-    "phone": "5550101016",
-    "zip": "27804",
-    "serviceRadiusMiles": 50,
-    "rating": 3.6,
-    "reviewCount": 15,
+    "phone": "5550100115",
+    "zip": "27530",
+    "serviceRadiusMiles": 40,
+    "rating": 4,
+    "reviewCount": 30,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_17",
-    "contactName": "Quinn Sample",
+    "contactName": "Taylor Sample",
     "businessName": "SAMPLE: Raleigh Lawn & Landscape",
     "email": "sample.landscaping.17@example.com",
-    "phone": "5550101017",
-    "zip": "27609",
-    "serviceRadiusMiles": 55,
-    "rating": 4.75,
-    "reviewCount": 200,
+    "phone": "5550100116",
+    "zip": "27610",
+    "serviceRadiusMiles": 40,
+    "rating": 4.8,
+    "reviewCount": 300,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_18",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Charlotte Lawn & Landscape",
+    "contactName": "Rowan Sample",
+    "businessName": "SAMPLE: Fuquay-Varina Lawn & Landscape",
     "email": "sample.landscaping.18@example.com",
-    "phone": "5550101018",
-    "zip": "28202",
-    "serviceRadiusMiles": 25,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100117",
+    "zip": "27526",
+    "serviceRadiusMiles": 40,
+    "rating": 4.45,
+    "reviewCount": 45,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_19",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Asheville Lawn & Landscape",
+    "contactName": "Skyler Sample",
+    "businessName": "SAMPLE: Lillington Lawn & Landscape",
     "email": "sample.landscaping.19@example.com",
-    "phone": "5550101019",
-    "zip": "28801",
-    "serviceRadiusMiles": 30,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100118",
+    "zip": "27546",
+    "serviceRadiusMiles": 40,
+    "rating": 3.8,
+    "reviewCount": 25,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_landscaping_20",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Wilmington Lawn & Landscape",
+    "contactName": "Jamie Sample",
+    "businessName": "SAMPLE: Pikeville Lawn & Landscape",
     "email": "sample.landscaping.20@example.com",
-    "phone": "5550101020",
-    "zip": "28401",
-    "serviceRadiusMiles": 20,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100119",
+    "zip": "27863",
+    "serviceRadiusMiles": 40,
+    "rating": 4.6,
+    "reviewCount": 5,
     "categories": [
       "landscaping"
     ]
   },
   {
     "id": "seed_hvac_01",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Kenly Heating & Air",
+    "contactName": "Avery Sample",
+    "businessName": "SAMPLE: Smithfield Heating & Air",
     "email": "sample.hvac.01@example.com",
-    "phone": "5550101021",
-    "zip": "27542",
-    "serviceRadiusMiles": 50,
-    "rating": 4.9,
-    "reviewCount": 240,
+    "phone": "5550100120",
+    "zip": "27577",
+    "serviceRadiusMiles": 30,
+    "rating": 4.7,
+    "reviewCount": 120,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_02",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Micro Heating & Air",
+    "contactName": "Blake Sample",
+    "businessName": "SAMPLE: Clayton Heating & Air",
     "email": "sample.hvac.02@example.com",
-    "phone": "5550101022",
-    "zip": "27555",
-    "serviceRadiusMiles": 55,
-    "rating": 4.85,
-    "reviewCount": 180,
+    "phone": "5550100121",
+    "zip": "27520",
+    "serviceRadiusMiles": 35,
+    "rating": 4.6,
+    "reviewCount": 90,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_03",
-    "contactName": "Jordan Sample",
+    "contactName": "Casey Sample",
     "businessName": "SAMPLE: Selma Heating & Air",
     "email": "sample.hvac.03@example.com",
-    "phone": "5550101023",
+    "phone": "5550100122",
     "zip": "27576",
-    "serviceRadiusMiles": 60,
-    "rating": 4.8,
-    "reviewCount": 160,
+    "serviceRadiusMiles": 40,
+    "rating": 4.55,
+    "reviewCount": 70,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_04",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Smithfield Heating & Air",
+    "contactName": "Drew Sample",
+    "businessName": "SAMPLE: Kenly Heating & Air",
     "email": "sample.hvac.04@example.com",
-    "phone": "5550101024",
-    "zip": "27577",
-    "serviceRadiusMiles": 65,
-    "rating": 4.7,
-    "reviewCount": 120,
+    "phone": "5550100123",
+    "zip": "27542",
+    "serviceRadiusMiles": 30,
+    "rating": 4.4,
+    "reviewCount": 50,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_05",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Wilson Heating & Air",
+    "contactName": "Emerson Sample",
+    "businessName": "SAMPLE: Benson Heating & Air",
     "email": "sample.hvac.05@example.com",
-    "phone": "5550101025",
-    "zip": "27893",
-    "serviceRadiusMiles": 70,
-    "rating": 4.6,
-    "reviewCount": 90,
+    "phone": "5550100124",
+    "zip": "27504",
+    "serviceRadiusMiles": 35,
+    "rating": 4.3,
+    "reviewCount": 35,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_06",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Lucama Heating & Air",
+    "contactName": "Finley Sample",
+    "businessName": "SAMPLE: Four Oaks Heating & Air",
     "email": "sample.hvac.06@example.com",
-    "phone": "5550101026",
-    "zip": "27851",
-    "serviceRadiusMiles": 50,
-    "rating": 4.55,
-    "reviewCount": 70,
+    "phone": "5550100125",
+    "zip": "27524",
+    "serviceRadiusMiles": 40,
+    "rating": 4.2,
+    "reviewCount": 22,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_07",
-    "contactName": "Quinn Sample",
-    "businessName": "SAMPLE: Bailey Heating & Air",
+    "contactName": "Gray Sample",
+    "businessName": "SAMPLE: Clayton / Archer Lodge Heating & Air",
     "email": "sample.hvac.07@example.com",
-    "phone": "5550101027",
-    "zip": "27807",
-    "serviceRadiusMiles": 55,
-    "rating": 4.4,
-    "reviewCount": 50,
+    "phone": "5550100126",
+    "zip": "27527",
+    "serviceRadiusMiles": 30,
+    "rating": 4.95,
+    "reviewCount": 8,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_08",
-    "contactName": "Drew Sample",
-    "businessName": "SAMPLE: Goldsboro Heating & Air",
+    "contactName": "Harper Sample",
+    "businessName": "SAMPLE: Princeton Heating & Air",
     "email": "sample.hvac.08@example.com",
-    "phone": "5550101028",
-    "zip": "27530",
-    "serviceRadiusMiles": 60,
-    "rating": 4.3,
-    "reviewCount": 35,
+    "phone": "5550100127",
+    "zip": "27569",
+    "serviceRadiusMiles": 35,
+    "rating": 4.1,
+    "reviewCount": 60,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_09",
-    "contactName": "Morgan Sample",
-    "businessName": "SAMPLE: Princeton Heating & Air",
+    "contactName": "Jordan Sample",
+    "businessName": "SAMPLE: Micro Heating & Air",
     "email": "sample.hvac.09@example.com",
-    "phone": "5550101029",
-    "zip": "27569",
-    "serviceRadiusMiles": 65,
-    "rating": 4.2,
-    "reviewCount": 22,
+    "phone": "5550100128",
+    "zip": "27555",
+    "serviceRadiusMiles": 40,
+    "rating": 3.9,
+    "reviewCount": 140,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_10",
-    "contactName": "Taylor Sample",
-    "businessName": "SAMPLE: Clayton Heating & Air",
+    "contactName": "Kendall Sample",
+    "businessName": "SAMPLE: Pine Level Heating & Air",
     "email": "sample.hvac.10@example.com",
-    "phone": "5550101030",
-    "zip": "27520",
-    "serviceRadiusMiles": 70,
-    "rating": 4.95,
-    "reviewCount": 14,
+    "phone": "5550100129",
+    "zip": "27568",
+    "serviceRadiusMiles": 30,
+    "rating": 4.75,
+    "reviewCount": 200,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_11",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Wendell Heating & Air",
+    "contactName": "Logan Sample",
+    "businessName": "SAMPLE: Wilson's Mills Heating & Air",
     "email": "sample.hvac.11@example.com",
-    "phone": "5550101031",
-    "zip": "27591",
-    "serviceRadiusMiles": 50,
-    "rating": 3.9,
-    "reviewCount": 80,
+    "phone": "5550100130",
+    "zip": "27593",
+    "serviceRadiusMiles": 35,
+    "rating": 4.5,
+    "reviewCount": 15,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_12",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Zebulon Heating & Air",
+    "contactName": "Morgan Sample",
+    "businessName": "SAMPLE: Willow Spring Heating & Air",
     "email": "sample.hvac.12@example.com",
-    "phone": "5550101032",
-    "zip": "27597",
-    "serviceRadiusMiles": 55,
-    "rating": 3.7,
-    "reviewCount": 40,
+    "phone": "5550100131",
+    "zip": "27592",
+    "serviceRadiusMiles": 40,
+    "rating": 4.65,
+    "reviewCount": 110,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_13",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Raleigh Heating & Air",
+    "contactName": "Parker Sample",
+    "businessName": "SAMPLE: Angier Heating & Air",
     "email": "sample.hvac.13@example.com",
-    "phone": "5550101033",
-    "zip": "27601",
-    "serviceRadiusMiles": 60,
-    "rating": 4.5,
-    "reviewCount": 10,
+    "phone": "5550100132",
+    "zip": "27501",
+    "serviceRadiusMiles": 30,
+    "rating": 4,
+    "reviewCount": 30,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_14",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Garner Heating & Air",
+    "contactName": "Quinn Sample",
+    "businessName": "SAMPLE: Garner / Cleveland Heating & Air",
     "email": "sample.hvac.14@example.com",
-    "phone": "5550101034",
+    "phone": "5550100133",
     "zip": "27529",
-    "serviceRadiusMiles": 65,
-    "rating": 4.1,
-    "reviewCount": 18,
+    "serviceRadiusMiles": 35,
+    "rating": 4.8,
+    "reviewCount": 300,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_15",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Knightdale Heating & Air",
+    "contactName": "Reese Sample",
+    "businessName": "SAMPLE: Wilson Heating & Air",
     "email": "sample.hvac.15@example.com",
-    "phone": "5550101035",
-    "zip": "27545",
-    "serviceRadiusMiles": 70,
-    "rating": 4,
-    "reviewCount": 6,
+    "phone": "5550100134",
+    "zip": "27893",
+    "serviceRadiusMiles": 40,
+    "rating": 4.45,
+    "reviewCount": 45,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_16",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Rocky Mount Heating & Air",
+    "contactName": "Sawyer Sample",
+    "businessName": "SAMPLE: Goldsboro Heating & Air",
     "email": "sample.hvac.16@example.com",
-    "phone": "5550101036",
-    "zip": "27804",
-    "serviceRadiusMiles": 50,
-    "rating": 3.6,
-    "reviewCount": 15,
+    "phone": "5550100135",
+    "zip": "27530",
+    "serviceRadiusMiles": 40,
+    "rating": 3.8,
+    "reviewCount": 25,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_17",
-    "contactName": "Quinn Sample",
+    "contactName": "Taylor Sample",
     "businessName": "SAMPLE: Raleigh Heating & Air",
     "email": "sample.hvac.17@example.com",
-    "phone": "5550101037",
-    "zip": "27609",
-    "serviceRadiusMiles": 55,
-    "rating": 4.75,
-    "reviewCount": 200,
+    "phone": "5550100136",
+    "zip": "27610",
+    "serviceRadiusMiles": 40,
+    "rating": 4.6,
+    "reviewCount": 5,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_18",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Charlotte Heating & Air",
+    "contactName": "Rowan Sample",
+    "businessName": "SAMPLE: Fuquay-Varina Heating & Air",
     "email": "sample.hvac.18@example.com",
-    "phone": "5550101038",
-    "zip": "28202",
-    "serviceRadiusMiles": 25,
+    "phone": "5550100137",
+    "zip": "27526",
+    "serviceRadiusMiles": 40,
     "rating": 4.9,
-    "reviewCount": 300,
+    "reviewCount": 240,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_19",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Asheville Heating & Air",
+    "contactName": "Skyler Sample",
+    "businessName": "SAMPLE: Lillington Heating & Air",
     "email": "sample.hvac.19@example.com",
-    "phone": "5550101039",
-    "zip": "28801",
-    "serviceRadiusMiles": 30,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100138",
+    "zip": "27546",
+    "serviceRadiusMiles": 40,
+    "rating": 4.85,
+    "reviewCount": 180,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_hvac_20",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Wilmington Heating & Air",
+    "contactName": "Jamie Sample",
+    "businessName": "SAMPLE: Pikeville Heating & Air",
     "email": "sample.hvac.20@example.com",
-    "phone": "5550101040",
-    "zip": "28401",
-    "serviceRadiusMiles": 20,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100139",
+    "zip": "27863",
+    "serviceRadiusMiles": 40,
+    "rating": 4.8,
+    "reviewCount": 160,
     "categories": [
       "hvac"
     ]
   },
   {
     "id": "seed_roofing_01",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Kenly Roofing",
+    "contactName": "Avery Sample",
+    "businessName": "SAMPLE: Smithfield Roofing",
     "email": "sample.roofing.01@example.com",
-    "phone": "5550101041",
-    "zip": "27542",
-    "serviceRadiusMiles": 50,
-    "rating": 4.9,
-    "reviewCount": 240,
+    "phone": "5550100140",
+    "zip": "27577",
+    "serviceRadiusMiles": 30,
+    "rating": 4.4,
+    "reviewCount": 50,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_02",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Micro Roofing",
+    "contactName": "Blake Sample",
+    "businessName": "SAMPLE: Clayton Roofing",
     "email": "sample.roofing.02@example.com",
-    "phone": "5550101042",
-    "zip": "27555",
-    "serviceRadiusMiles": 55,
-    "rating": 4.85,
-    "reviewCount": 180,
+    "phone": "5550100141",
+    "zip": "27520",
+    "serviceRadiusMiles": 35,
+    "rating": 4.3,
+    "reviewCount": 35,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_03",
-    "contactName": "Jordan Sample",
+    "contactName": "Casey Sample",
     "businessName": "SAMPLE: Selma Roofing",
     "email": "sample.roofing.03@example.com",
-    "phone": "5550101043",
+    "phone": "5550100142",
     "zip": "27576",
-    "serviceRadiusMiles": 60,
-    "rating": 4.8,
-    "reviewCount": 160,
+    "serviceRadiusMiles": 40,
+    "rating": 4.2,
+    "reviewCount": 22,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_04",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Smithfield Roofing",
+    "contactName": "Drew Sample",
+    "businessName": "SAMPLE: Kenly Roofing",
     "email": "sample.roofing.04@example.com",
-    "phone": "5550101044",
-    "zip": "27577",
-    "serviceRadiusMiles": 65,
-    "rating": 4.7,
-    "reviewCount": 120,
+    "phone": "5550100143",
+    "zip": "27542",
+    "serviceRadiusMiles": 30,
+    "rating": 4.95,
+    "reviewCount": 8,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_05",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Wilson Roofing",
+    "contactName": "Emerson Sample",
+    "businessName": "SAMPLE: Benson Roofing",
     "email": "sample.roofing.05@example.com",
-    "phone": "5550101045",
-    "zip": "27893",
-    "serviceRadiusMiles": 70,
-    "rating": 4.6,
-    "reviewCount": 90,
+    "phone": "5550100144",
+    "zip": "27504",
+    "serviceRadiusMiles": 35,
+    "rating": 4.1,
+    "reviewCount": 60,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_06",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Lucama Roofing",
+    "contactName": "Finley Sample",
+    "businessName": "SAMPLE: Four Oaks Roofing",
     "email": "sample.roofing.06@example.com",
-    "phone": "5550101046",
-    "zip": "27851",
-    "serviceRadiusMiles": 50,
-    "rating": 4.55,
-    "reviewCount": 70,
+    "phone": "5550100145",
+    "zip": "27524",
+    "serviceRadiusMiles": 40,
+    "rating": 3.9,
+    "reviewCount": 140,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_07",
-    "contactName": "Quinn Sample",
-    "businessName": "SAMPLE: Bailey Roofing",
+    "contactName": "Gray Sample",
+    "businessName": "SAMPLE: Clayton / Archer Lodge Roofing",
     "email": "sample.roofing.07@example.com",
-    "phone": "5550101047",
-    "zip": "27807",
-    "serviceRadiusMiles": 55,
-    "rating": 4.4,
-    "reviewCount": 50,
+    "phone": "5550100146",
+    "zip": "27527",
+    "serviceRadiusMiles": 30,
+    "rating": 4.75,
+    "reviewCount": 200,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_08",
-    "contactName": "Drew Sample",
-    "businessName": "SAMPLE: Goldsboro Roofing",
+    "contactName": "Harper Sample",
+    "businessName": "SAMPLE: Princeton Roofing",
     "email": "sample.roofing.08@example.com",
-    "phone": "5550101048",
-    "zip": "27530",
-    "serviceRadiusMiles": 60,
-    "rating": 4.3,
-    "reviewCount": 35,
+    "phone": "5550100147",
+    "zip": "27569",
+    "serviceRadiusMiles": 35,
+    "rating": 4.5,
+    "reviewCount": 15,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_09",
-    "contactName": "Morgan Sample",
-    "businessName": "SAMPLE: Princeton Roofing",
+    "contactName": "Jordan Sample",
+    "businessName": "SAMPLE: Micro Roofing",
     "email": "sample.roofing.09@example.com",
-    "phone": "5550101049",
-    "zip": "27569",
-    "serviceRadiusMiles": 65,
-    "rating": 4.2,
-    "reviewCount": 22,
+    "phone": "5550100148",
+    "zip": "27555",
+    "serviceRadiusMiles": 40,
+    "rating": 4.65,
+    "reviewCount": 110,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_10",
-    "contactName": "Taylor Sample",
-    "businessName": "SAMPLE: Clayton Roofing",
+    "contactName": "Kendall Sample",
+    "businessName": "SAMPLE: Pine Level Roofing",
     "email": "sample.roofing.10@example.com",
-    "phone": "5550101050",
-    "zip": "27520",
-    "serviceRadiusMiles": 70,
-    "rating": 4.95,
-    "reviewCount": 14,
+    "phone": "5550100149",
+    "zip": "27568",
+    "serviceRadiusMiles": 30,
+    "rating": 4,
+    "reviewCount": 30,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_11",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Wendell Roofing",
+    "contactName": "Logan Sample",
+    "businessName": "SAMPLE: Wilson's Mills Roofing",
     "email": "sample.roofing.11@example.com",
-    "phone": "5550101051",
-    "zip": "27591",
-    "serviceRadiusMiles": 50,
-    "rating": 3.9,
-    "reviewCount": 80,
+    "phone": "5550100150",
+    "zip": "27593",
+    "serviceRadiusMiles": 35,
+    "rating": 4.8,
+    "reviewCount": 300,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_12",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Zebulon Roofing",
+    "contactName": "Morgan Sample",
+    "businessName": "SAMPLE: Willow Spring Roofing",
     "email": "sample.roofing.12@example.com",
-    "phone": "5550101052",
-    "zip": "27597",
-    "serviceRadiusMiles": 55,
-    "rating": 3.7,
-    "reviewCount": 40,
+    "phone": "5550100151",
+    "zip": "27592",
+    "serviceRadiusMiles": 40,
+    "rating": 4.45,
+    "reviewCount": 45,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_13",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Raleigh Roofing",
+    "contactName": "Parker Sample",
+    "businessName": "SAMPLE: Angier Roofing",
     "email": "sample.roofing.13@example.com",
-    "phone": "5550101053",
-    "zip": "27601",
-    "serviceRadiusMiles": 60,
-    "rating": 4.5,
-    "reviewCount": 10,
+    "phone": "5550100152",
+    "zip": "27501",
+    "serviceRadiusMiles": 30,
+    "rating": 3.8,
+    "reviewCount": 25,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_14",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Garner Roofing",
+    "contactName": "Quinn Sample",
+    "businessName": "SAMPLE: Garner / Cleveland Roofing",
     "email": "sample.roofing.14@example.com",
-    "phone": "5550101054",
+    "phone": "5550100153",
     "zip": "27529",
-    "serviceRadiusMiles": 65,
-    "rating": 4.1,
-    "reviewCount": 18,
+    "serviceRadiusMiles": 35,
+    "rating": 4.6,
+    "reviewCount": 5,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_15",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Knightdale Roofing",
+    "contactName": "Reese Sample",
+    "businessName": "SAMPLE: Wilson Roofing",
     "email": "sample.roofing.15@example.com",
-    "phone": "5550101055",
-    "zip": "27545",
-    "serviceRadiusMiles": 70,
-    "rating": 4,
-    "reviewCount": 6,
+    "phone": "5550100154",
+    "zip": "27893",
+    "serviceRadiusMiles": 40,
+    "rating": 4.9,
+    "reviewCount": 240,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_16",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Rocky Mount Roofing",
+    "contactName": "Sawyer Sample",
+    "businessName": "SAMPLE: Goldsboro Roofing",
     "email": "sample.roofing.16@example.com",
-    "phone": "5550101056",
-    "zip": "27804",
-    "serviceRadiusMiles": 50,
-    "rating": 3.6,
-    "reviewCount": 15,
+    "phone": "5550100155",
+    "zip": "27530",
+    "serviceRadiusMiles": 40,
+    "rating": 4.85,
+    "reviewCount": 180,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_17",
-    "contactName": "Quinn Sample",
+    "contactName": "Taylor Sample",
     "businessName": "SAMPLE: Raleigh Roofing",
     "email": "sample.roofing.17@example.com",
-    "phone": "5550101057",
-    "zip": "27609",
-    "serviceRadiusMiles": 55,
-    "rating": 4.75,
-    "reviewCount": 200,
+    "phone": "5550100156",
+    "zip": "27610",
+    "serviceRadiusMiles": 40,
+    "rating": 4.8,
+    "reviewCount": 160,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_18",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Charlotte Roofing",
+    "contactName": "Rowan Sample",
+    "businessName": "SAMPLE: Fuquay-Varina Roofing",
     "email": "sample.roofing.18@example.com",
-    "phone": "5550101058",
-    "zip": "28202",
-    "serviceRadiusMiles": 25,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100157",
+    "zip": "27526",
+    "serviceRadiusMiles": 40,
+    "rating": 4.7,
+    "reviewCount": 120,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_19",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Asheville Roofing",
+    "contactName": "Skyler Sample",
+    "businessName": "SAMPLE: Lillington Roofing",
     "email": "sample.roofing.19@example.com",
-    "phone": "5550101059",
-    "zip": "28801",
-    "serviceRadiusMiles": 30,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100158",
+    "zip": "27546",
+    "serviceRadiusMiles": 40,
+    "rating": 4.6,
+    "reviewCount": 90,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_roofing_20",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Wilmington Roofing",
+    "contactName": "Jamie Sample",
+    "businessName": "SAMPLE: Pikeville Roofing",
     "email": "sample.roofing.20@example.com",
-    "phone": "5550101060",
-    "zip": "28401",
-    "serviceRadiusMiles": 20,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100159",
+    "zip": "27863",
+    "serviceRadiusMiles": 40,
+    "rating": 4.55,
+    "reviewCount": 70,
     "categories": [
       "roofing"
     ]
   },
   {
     "id": "seed_septic_plumbing_01",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Kenly Septic & Plumbing",
+    "contactName": "Avery Sample",
+    "businessName": "SAMPLE: Smithfield Septic & Plumbing",
     "email": "sample.septic_plumbing.01@example.com",
-    "phone": "5550101061",
-    "zip": "27542",
-    "serviceRadiusMiles": 50,
-    "rating": 4.9,
-    "reviewCount": 240,
+    "phone": "5550100160",
+    "zip": "27577",
+    "serviceRadiusMiles": 30,
+    "rating": 4.95,
+    "reviewCount": 8,
     "categories": [
       "septic_plumbing"
     ]
   },
   {
     "id": "seed_septic_plumbing_02",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Micro Septic & Plumbing",
+    "contactName": "Blake Sample",
+    "businessName": "SAMPLE: Clayton Septic & Plumbing",
     "email": "sample.septic_plumbing.02@example.com",
-    "phone": "5550101062",
-    "zip": "27555",
-    "serviceRadiusMiles": 55,
-    "rating": 4.85,
-    "reviewCount": 180,
+    "phone": "5550100161",
+    "zip": "27520",
+    "serviceRadiusMiles": 35,
+    "rating": 4.1,
+    "reviewCount": 60,
     "categories": [
       "septic_plumbing"
     ]
   },
   {
     "id": "seed_septic_plumbing_03",
-    "contactName": "Jordan Sample",
+    "contactName": "Casey Sample",
     "businessName": "SAMPLE: Selma Septic & Plumbing",
     "email": "sample.septic_plumbing.03@example.com",
-    "phone": "5550101063",
+    "phone": "5550100162",
     "zip": "27576",
-    "serviceRadiusMiles": 60,
-    "rating": 4.8,
-    "reviewCount": 160,
+    "serviceRadiusMiles": 40,
+    "rating": 3.9,
+    "reviewCount": 140,
     "categories": [
       "septic_plumbing"
     ]
   },
   {
     "id": "seed_septic_plumbing_04",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Smithfield Septic & Plumbing",
-    "email": "sample.septic_plumbing.04@example.com",
-    "phone": "5550101064",
-    "zip": "27577",
-    "serviceRadiusMiles": 65,
-    "rating": 4.7,
-    "reviewCount": 120,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_05",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Wilson Septic & Plumbing",
-    "email": "sample.septic_plumbing.05@example.com",
-    "phone": "5550101065",
-    "zip": "27893",
-    "serviceRadiusMiles": 70,
-    "rating": 4.6,
-    "reviewCount": 90,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_06",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Lucama Septic & Plumbing",
-    "email": "sample.septic_plumbing.06@example.com",
-    "phone": "5550101066",
-    "zip": "27851",
-    "serviceRadiusMiles": 50,
-    "rating": 4.55,
-    "reviewCount": 70,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_07",
-    "contactName": "Quinn Sample",
-    "businessName": "SAMPLE: Bailey Septic & Plumbing",
-    "email": "sample.septic_plumbing.07@example.com",
-    "phone": "5550101067",
-    "zip": "27807",
-    "serviceRadiusMiles": 55,
-    "rating": 4.4,
-    "reviewCount": 50,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_08",
     "contactName": "Drew Sample",
-    "businessName": "SAMPLE: Goldsboro Septic & Plumbing",
-    "email": "sample.septic_plumbing.08@example.com",
-    "phone": "5550101068",
-    "zip": "27530",
-    "serviceRadiusMiles": 60,
-    "rating": 4.3,
-    "reviewCount": 35,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_09",
-    "contactName": "Morgan Sample",
-    "businessName": "SAMPLE: Princeton Septic & Plumbing",
-    "email": "sample.septic_plumbing.09@example.com",
-    "phone": "5550101069",
-    "zip": "27569",
-    "serviceRadiusMiles": 65,
-    "rating": 4.2,
-    "reviewCount": 22,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_10",
-    "contactName": "Taylor Sample",
-    "businessName": "SAMPLE: Clayton Septic & Plumbing",
-    "email": "sample.septic_plumbing.10@example.com",
-    "phone": "5550101070",
-    "zip": "27520",
-    "serviceRadiusMiles": 70,
-    "rating": 4.95,
-    "reviewCount": 14,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_11",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Wendell Septic & Plumbing",
-    "email": "sample.septic_plumbing.11@example.com",
-    "phone": "5550101071",
-    "zip": "27591",
-    "serviceRadiusMiles": 50,
-    "rating": 3.9,
-    "reviewCount": 80,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_12",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Zebulon Septic & Plumbing",
-    "email": "sample.septic_plumbing.12@example.com",
-    "phone": "5550101072",
-    "zip": "27597",
-    "serviceRadiusMiles": 55,
-    "rating": 3.7,
-    "reviewCount": 40,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_13",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Raleigh Septic & Plumbing",
-    "email": "sample.septic_plumbing.13@example.com",
-    "phone": "5550101073",
-    "zip": "27601",
-    "serviceRadiusMiles": 60,
-    "rating": 4.5,
-    "reviewCount": 10,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_14",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Garner Septic & Plumbing",
-    "email": "sample.septic_plumbing.14@example.com",
-    "phone": "5550101074",
-    "zip": "27529",
-    "serviceRadiusMiles": 65,
-    "rating": 4.1,
-    "reviewCount": 18,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_15",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Knightdale Septic & Plumbing",
-    "email": "sample.septic_plumbing.15@example.com",
-    "phone": "5550101075",
-    "zip": "27545",
-    "serviceRadiusMiles": 70,
-    "rating": 4,
-    "reviewCount": 6,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_16",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Rocky Mount Septic & Plumbing",
-    "email": "sample.septic_plumbing.16@example.com",
-    "phone": "5550101076",
-    "zip": "27804",
-    "serviceRadiusMiles": 50,
-    "rating": 3.6,
-    "reviewCount": 15,
-    "categories": [
-      "septic_plumbing"
-    ]
-  },
-  {
-    "id": "seed_septic_plumbing_17",
-    "contactName": "Quinn Sample",
-    "businessName": "SAMPLE: Raleigh Septic & Plumbing",
-    "email": "sample.septic_plumbing.17@example.com",
-    "phone": "5550101077",
-    "zip": "27609",
-    "serviceRadiusMiles": 55,
+    "businessName": "SAMPLE: Kenly Septic & Plumbing",
+    "email": "sample.septic_plumbing.04@example.com",
+    "phone": "5550100163",
+    "zip": "27542",
+    "serviceRadiusMiles": 30,
     "rating": 4.75,
     "reviewCount": 200,
     "categories": [
@@ -1078,55 +896,349 @@
     ]
   },
   {
-    "id": "seed_septic_plumbing_18",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Charlotte Septic & Plumbing",
-    "email": "sample.septic_plumbing.18@example.com",
-    "phone": "5550101078",
-    "zip": "28202",
-    "serviceRadiusMiles": 25,
-    "rating": 4.9,
+    "id": "seed_septic_plumbing_05",
+    "contactName": "Emerson Sample",
+    "businessName": "SAMPLE: Benson Septic & Plumbing",
+    "email": "sample.septic_plumbing.05@example.com",
+    "phone": "5550100164",
+    "zip": "27504",
+    "serviceRadiusMiles": 35,
+    "rating": 4.5,
+    "reviewCount": 15,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_06",
+    "contactName": "Finley Sample",
+    "businessName": "SAMPLE: Four Oaks Septic & Plumbing",
+    "email": "sample.septic_plumbing.06@example.com",
+    "phone": "5550100165",
+    "zip": "27524",
+    "serviceRadiusMiles": 40,
+    "rating": 4.65,
+    "reviewCount": 110,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_07",
+    "contactName": "Gray Sample",
+    "businessName": "SAMPLE: Clayton / Archer Lodge Septic & Plumbing",
+    "email": "sample.septic_plumbing.07@example.com",
+    "phone": "5550100166",
+    "zip": "27527",
+    "serviceRadiusMiles": 30,
+    "rating": 4,
+    "reviewCount": 30,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_08",
+    "contactName": "Harper Sample",
+    "businessName": "SAMPLE: Princeton Septic & Plumbing",
+    "email": "sample.septic_plumbing.08@example.com",
+    "phone": "5550100167",
+    "zip": "27569",
+    "serviceRadiusMiles": 35,
+    "rating": 4.8,
     "reviewCount": 300,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_09",
+    "contactName": "Jordan Sample",
+    "businessName": "SAMPLE: Micro Septic & Plumbing",
+    "email": "sample.septic_plumbing.09@example.com",
+    "phone": "5550100168",
+    "zip": "27555",
+    "serviceRadiusMiles": 40,
+    "rating": 4.45,
+    "reviewCount": 45,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_10",
+    "contactName": "Kendall Sample",
+    "businessName": "SAMPLE: Pine Level Septic & Plumbing",
+    "email": "sample.septic_plumbing.10@example.com",
+    "phone": "5550100169",
+    "zip": "27568",
+    "serviceRadiusMiles": 30,
+    "rating": 3.8,
+    "reviewCount": 25,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_11",
+    "contactName": "Logan Sample",
+    "businessName": "SAMPLE: Wilson's Mills Septic & Plumbing",
+    "email": "sample.septic_plumbing.11@example.com",
+    "phone": "5550100170",
+    "zip": "27593",
+    "serviceRadiusMiles": 35,
+    "rating": 4.6,
+    "reviewCount": 5,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_12",
+    "contactName": "Morgan Sample",
+    "businessName": "SAMPLE: Willow Spring Septic & Plumbing",
+    "email": "sample.septic_plumbing.12@example.com",
+    "phone": "5550100171",
+    "zip": "27592",
+    "serviceRadiusMiles": 40,
+    "rating": 4.9,
+    "reviewCount": 240,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_13",
+    "contactName": "Parker Sample",
+    "businessName": "SAMPLE: Angier Septic & Plumbing",
+    "email": "sample.septic_plumbing.13@example.com",
+    "phone": "5550100172",
+    "zip": "27501",
+    "serviceRadiusMiles": 30,
+    "rating": 4.85,
+    "reviewCount": 180,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_14",
+    "contactName": "Quinn Sample",
+    "businessName": "SAMPLE: Garner / Cleveland Septic & Plumbing",
+    "email": "sample.septic_plumbing.14@example.com",
+    "phone": "5550100173",
+    "zip": "27529",
+    "serviceRadiusMiles": 35,
+    "rating": 4.8,
+    "reviewCount": 160,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_15",
+    "contactName": "Reese Sample",
+    "businessName": "SAMPLE: Wilson Septic & Plumbing",
+    "email": "sample.septic_plumbing.15@example.com",
+    "phone": "5550100174",
+    "zip": "27893",
+    "serviceRadiusMiles": 40,
+    "rating": 4.7,
+    "reviewCount": 120,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_16",
+    "contactName": "Sawyer Sample",
+    "businessName": "SAMPLE: Goldsboro Septic & Plumbing",
+    "email": "sample.septic_plumbing.16@example.com",
+    "phone": "5550100175",
+    "zip": "27530",
+    "serviceRadiusMiles": 40,
+    "rating": 4.6,
+    "reviewCount": 90,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_17",
+    "contactName": "Taylor Sample",
+    "businessName": "SAMPLE: Raleigh Septic & Plumbing",
+    "email": "sample.septic_plumbing.17@example.com",
+    "phone": "5550100176",
+    "zip": "27610",
+    "serviceRadiusMiles": 40,
+    "rating": 4.55,
+    "reviewCount": 70,
+    "categories": [
+      "septic_plumbing"
+    ]
+  },
+  {
+    "id": "seed_septic_plumbing_18",
+    "contactName": "Rowan Sample",
+    "businessName": "SAMPLE: Fuquay-Varina Septic & Plumbing",
+    "email": "sample.septic_plumbing.18@example.com",
+    "phone": "5550100177",
+    "zip": "27526",
+    "serviceRadiusMiles": 40,
+    "rating": 4.4,
+    "reviewCount": 50,
     "categories": [
       "septic_plumbing"
     ]
   },
   {
     "id": "seed_septic_plumbing_19",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Asheville Septic & Plumbing",
+    "contactName": "Skyler Sample",
+    "businessName": "SAMPLE: Lillington Septic & Plumbing",
     "email": "sample.septic_plumbing.19@example.com",
-    "phone": "5550101079",
-    "zip": "28801",
-    "serviceRadiusMiles": 30,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100178",
+    "zip": "27546",
+    "serviceRadiusMiles": 40,
+    "rating": 4.3,
+    "reviewCount": 35,
     "categories": [
       "septic_plumbing"
     ]
   },
   {
     "id": "seed_septic_plumbing_20",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Wilmington Septic & Plumbing",
+    "contactName": "Jamie Sample",
+    "businessName": "SAMPLE: Pikeville Septic & Plumbing",
     "email": "sample.septic_plumbing.20@example.com",
-    "phone": "5550101080",
-    "zip": "28401",
-    "serviceRadiusMiles": 20,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100179",
+    "zip": "27863",
+    "serviceRadiusMiles": 40,
+    "rating": 4.2,
+    "reviewCount": 22,
     "categories": [
       "septic_plumbing"
     ]
   },
   {
     "id": "seed_electrical_01",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Kenly Electric",
+    "contactName": "Avery Sample",
+    "businessName": "SAMPLE: Smithfield Electric",
     "email": "sample.electrical.01@example.com",
-    "phone": "5550101081",
+    "phone": "5550100180",
+    "zip": "27577",
+    "serviceRadiusMiles": 30,
+    "rating": 4.75,
+    "reviewCount": 200,
+    "categories": [
+      "electrical"
+    ]
+  },
+  {
+    "id": "seed_electrical_02",
+    "contactName": "Blake Sample",
+    "businessName": "SAMPLE: Clayton Electric",
+    "email": "sample.electrical.02@example.com",
+    "phone": "5550100181",
+    "zip": "27520",
+    "serviceRadiusMiles": 35,
+    "rating": 4.5,
+    "reviewCount": 15,
+    "categories": [
+      "electrical"
+    ]
+  },
+  {
+    "id": "seed_electrical_03",
+    "contactName": "Casey Sample",
+    "businessName": "SAMPLE: Selma Electric",
+    "email": "sample.electrical.03@example.com",
+    "phone": "5550100182",
+    "zip": "27576",
+    "serviceRadiusMiles": 40,
+    "rating": 4.65,
+    "reviewCount": 110,
+    "categories": [
+      "electrical"
+    ]
+  },
+  {
+    "id": "seed_electrical_04",
+    "contactName": "Drew Sample",
+    "businessName": "SAMPLE: Kenly Electric",
+    "email": "sample.electrical.04@example.com",
+    "phone": "5550100183",
     "zip": "27542",
-    "serviceRadiusMiles": 50,
+    "serviceRadiusMiles": 30,
+    "rating": 4,
+    "reviewCount": 30,
+    "categories": [
+      "electrical"
+    ]
+  },
+  {
+    "id": "seed_electrical_05",
+    "contactName": "Emerson Sample",
+    "businessName": "SAMPLE: Benson Electric",
+    "email": "sample.electrical.05@example.com",
+    "phone": "5550100184",
+    "zip": "27504",
+    "serviceRadiusMiles": 35,
+    "rating": 4.8,
+    "reviewCount": 300,
+    "categories": [
+      "electrical"
+    ]
+  },
+  {
+    "id": "seed_electrical_06",
+    "contactName": "Finley Sample",
+    "businessName": "SAMPLE: Four Oaks Electric",
+    "email": "sample.electrical.06@example.com",
+    "phone": "5550100185",
+    "zip": "27524",
+    "serviceRadiusMiles": 40,
+    "rating": 4.45,
+    "reviewCount": 45,
+    "categories": [
+      "electrical"
+    ]
+  },
+  {
+    "id": "seed_electrical_07",
+    "contactName": "Gray Sample",
+    "businessName": "SAMPLE: Clayton / Archer Lodge Electric",
+    "email": "sample.electrical.07@example.com",
+    "phone": "5550100186",
+    "zip": "27527",
+    "serviceRadiusMiles": 30,
+    "rating": 3.8,
+    "reviewCount": 25,
+    "categories": [
+      "electrical"
+    ]
+  },
+  {
+    "id": "seed_electrical_08",
+    "contactName": "Harper Sample",
+    "businessName": "SAMPLE: Princeton Electric",
+    "email": "sample.electrical.08@example.com",
+    "phone": "5550100187",
+    "zip": "27569",
+    "serviceRadiusMiles": 35,
+    "rating": 4.6,
+    "reviewCount": 5,
+    "categories": [
+      "electrical"
+    ]
+  },
+  {
+    "id": "seed_electrical_09",
+    "contactName": "Jordan Sample",
+    "businessName": "SAMPLE: Micro Electric",
+    "email": "sample.electrical.09@example.com",
+    "phone": "5550100188",
+    "zip": "27555",
+    "serviceRadiusMiles": 40,
     "rating": 4.9,
     "reviewCount": 240,
     "categories": [
@@ -1134,13 +1246,13 @@
     ]
   },
   {
-    "id": "seed_electrical_02",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Micro Electric",
-    "email": "sample.electrical.02@example.com",
-    "phone": "5550101082",
-    "zip": "27555",
-    "serviceRadiusMiles": 55,
+    "id": "seed_electrical_10",
+    "contactName": "Kendall Sample",
+    "businessName": "SAMPLE: Pine Level Electric",
+    "email": "sample.electrical.10@example.com",
+    "phone": "5550100189",
+    "zip": "27568",
+    "serviceRadiusMiles": 30,
     "rating": 4.85,
     "reviewCount": 180,
     "categories": [
@@ -1148,13 +1260,13 @@
     ]
   },
   {
-    "id": "seed_electrical_03",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Selma Electric",
-    "email": "sample.electrical.03@example.com",
-    "phone": "5550101083",
-    "zip": "27576",
-    "serviceRadiusMiles": 60,
+    "id": "seed_electrical_11",
+    "contactName": "Logan Sample",
+    "businessName": "SAMPLE: Wilson's Mills Electric",
+    "email": "sample.electrical.11@example.com",
+    "phone": "5550100190",
+    "zip": "27593",
+    "serviceRadiusMiles": 35,
     "rating": 4.8,
     "reviewCount": 160,
     "categories": [
@@ -1162,13 +1274,13 @@
     ]
   },
   {
-    "id": "seed_electrical_04",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Smithfield Electric",
-    "email": "sample.electrical.04@example.com",
-    "phone": "5550101084",
-    "zip": "27577",
-    "serviceRadiusMiles": 65,
+    "id": "seed_electrical_12",
+    "contactName": "Morgan Sample",
+    "businessName": "SAMPLE: Willow Spring Electric",
+    "email": "sample.electrical.12@example.com",
+    "phone": "5550100191",
+    "zip": "27592",
+    "serviceRadiusMiles": 40,
     "rating": 4.7,
     "reviewCount": 120,
     "categories": [
@@ -1176,13 +1288,13 @@
     ]
   },
   {
-    "id": "seed_electrical_05",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Wilson Electric",
-    "email": "sample.electrical.05@example.com",
-    "phone": "5550101085",
-    "zip": "27893",
-    "serviceRadiusMiles": 70,
+    "id": "seed_electrical_13",
+    "contactName": "Parker Sample",
+    "businessName": "SAMPLE: Angier Electric",
+    "email": "sample.electrical.13@example.com",
+    "phone": "5550100192",
+    "zip": "27501",
+    "serviceRadiusMiles": 30,
     "rating": 4.6,
     "reviewCount": 90,
     "categories": [
@@ -1190,13 +1302,13 @@
     ]
   },
   {
-    "id": "seed_electrical_06",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Lucama Electric",
-    "email": "sample.electrical.06@example.com",
-    "phone": "5550101086",
-    "zip": "27851",
-    "serviceRadiusMiles": 50,
+    "id": "seed_electrical_14",
+    "contactName": "Quinn Sample",
+    "businessName": "SAMPLE: Garner / Cleveland Electric",
+    "email": "sample.electrical.14@example.com",
+    "phone": "5550100193",
+    "zip": "27529",
+    "serviceRadiusMiles": 35,
     "rating": 4.55,
     "reviewCount": 70,
     "categories": [
@@ -1204,13 +1316,13 @@
     ]
   },
   {
-    "id": "seed_electrical_07",
-    "contactName": "Quinn Sample",
-    "businessName": "SAMPLE: Bailey Electric",
-    "email": "sample.electrical.07@example.com",
-    "phone": "5550101087",
-    "zip": "27807",
-    "serviceRadiusMiles": 55,
+    "id": "seed_electrical_15",
+    "contactName": "Reese Sample",
+    "businessName": "SAMPLE: Wilson Electric",
+    "email": "sample.electrical.15@example.com",
+    "phone": "5550100194",
+    "zip": "27893",
+    "serviceRadiusMiles": 40,
     "rating": 4.4,
     "reviewCount": 50,
     "categories": [
@@ -1218,13 +1330,13 @@
     ]
   },
   {
-    "id": "seed_electrical_08",
-    "contactName": "Drew Sample",
+    "id": "seed_electrical_16",
+    "contactName": "Sawyer Sample",
     "businessName": "SAMPLE: Goldsboro Electric",
-    "email": "sample.electrical.08@example.com",
-    "phone": "5550101088",
+    "email": "sample.electrical.16@example.com",
+    "phone": "5550100195",
     "zip": "27530",
-    "serviceRadiusMiles": 60,
+    "serviceRadiusMiles": 40,
     "rating": 4.3,
     "reviewCount": 35,
     "categories": [
@@ -1232,13 +1344,13 @@
     ]
   },
   {
-    "id": "seed_electrical_09",
-    "contactName": "Morgan Sample",
-    "businessName": "SAMPLE: Princeton Electric",
-    "email": "sample.electrical.09@example.com",
-    "phone": "5550101089",
-    "zip": "27569",
-    "serviceRadiusMiles": 65,
+    "id": "seed_electrical_17",
+    "contactName": "Taylor Sample",
+    "businessName": "SAMPLE: Raleigh Electric",
+    "email": "sample.electrical.17@example.com",
+    "phone": "5550100196",
+    "zip": "27610",
+    "serviceRadiusMiles": 40,
     "rating": 4.2,
     "reviewCount": 22,
     "categories": [
@@ -1246,155 +1358,43 @@
     ]
   },
   {
-    "id": "seed_electrical_10",
-    "contactName": "Taylor Sample",
-    "businessName": "SAMPLE: Clayton Electric",
-    "email": "sample.electrical.10@example.com",
-    "phone": "5550101090",
-    "zip": "27520",
-    "serviceRadiusMiles": 70,
-    "rating": 4.95,
-    "reviewCount": 14,
-    "categories": [
-      "electrical"
-    ]
-  },
-  {
-    "id": "seed_electrical_11",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Wendell Electric",
-    "email": "sample.electrical.11@example.com",
-    "phone": "5550101091",
-    "zip": "27591",
-    "serviceRadiusMiles": 50,
-    "rating": 3.9,
-    "reviewCount": 80,
-    "categories": [
-      "electrical"
-    ]
-  },
-  {
-    "id": "seed_electrical_12",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Zebulon Electric",
-    "email": "sample.electrical.12@example.com",
-    "phone": "5550101092",
-    "zip": "27597",
-    "serviceRadiusMiles": 55,
-    "rating": 3.7,
-    "reviewCount": 40,
-    "categories": [
-      "electrical"
-    ]
-  },
-  {
-    "id": "seed_electrical_13",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Raleigh Electric",
-    "email": "sample.electrical.13@example.com",
-    "phone": "5550101093",
-    "zip": "27601",
-    "serviceRadiusMiles": 60,
-    "rating": 4.5,
-    "reviewCount": 10,
-    "categories": [
-      "electrical"
-    ]
-  },
-  {
-    "id": "seed_electrical_14",
-    "contactName": "Riley Sample",
-    "businessName": "SAMPLE: Garner Electric",
-    "email": "sample.electrical.14@example.com",
-    "phone": "5550101094",
-    "zip": "27529",
-    "serviceRadiusMiles": 65,
-    "rating": 4.1,
-    "reviewCount": 18,
-    "categories": [
-      "electrical"
-    ]
-  },
-  {
-    "id": "seed_electrical_15",
-    "contactName": "Casey Sample",
-    "businessName": "SAMPLE: Knightdale Electric",
-    "email": "sample.electrical.15@example.com",
-    "phone": "5550101095",
-    "zip": "27545",
-    "serviceRadiusMiles": 70,
-    "rating": 4,
-    "reviewCount": 6,
-    "categories": [
-      "electrical"
-    ]
-  },
-  {
-    "id": "seed_electrical_16",
-    "contactName": "Avery Sample",
-    "businessName": "SAMPLE: Rocky Mount Electric",
-    "email": "sample.electrical.16@example.com",
-    "phone": "5550101096",
-    "zip": "27804",
-    "serviceRadiusMiles": 50,
-    "rating": 3.6,
-    "reviewCount": 15,
-    "categories": [
-      "electrical"
-    ]
-  },
-  {
-    "id": "seed_electrical_17",
-    "contactName": "Quinn Sample",
-    "businessName": "SAMPLE: Raleigh Electric",
-    "email": "sample.electrical.17@example.com",
-    "phone": "5550101097",
-    "zip": "27609",
-    "serviceRadiusMiles": 55,
-    "rating": 4.75,
-    "reviewCount": 200,
-    "categories": [
-      "electrical"
-    ]
-  },
-  {
     "id": "seed_electrical_18",
-    "contactName": "Sam Sample",
-    "businessName": "SAMPLE: Charlotte Electric",
+    "contactName": "Rowan Sample",
+    "businessName": "SAMPLE: Fuquay-Varina Electric",
     "email": "sample.electrical.18@example.com",
-    "phone": "5550101098",
-    "zip": "28202",
-    "serviceRadiusMiles": 25,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100197",
+    "zip": "27526",
+    "serviceRadiusMiles": 40,
+    "rating": 4.95,
+    "reviewCount": 8,
     "categories": [
       "electrical"
     ]
   },
   {
     "id": "seed_electrical_19",
-    "contactName": "Pat Sample",
-    "businessName": "SAMPLE: Asheville Electric",
+    "contactName": "Skyler Sample",
+    "businessName": "SAMPLE: Lillington Electric",
     "email": "sample.electrical.19@example.com",
-    "phone": "5550101099",
-    "zip": "28801",
-    "serviceRadiusMiles": 30,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100198",
+    "zip": "27546",
+    "serviceRadiusMiles": 40,
+    "rating": 4.1,
+    "reviewCount": 60,
     "categories": [
       "electrical"
     ]
   },
   {
     "id": "seed_electrical_20",
-    "contactName": "Jordan Sample",
-    "businessName": "SAMPLE: Wilmington Electric",
+    "contactName": "Jamie Sample",
+    "businessName": "SAMPLE: Pikeville Electric",
     "email": "sample.electrical.20@example.com",
-    "phone": "5550101100",
-    "zip": "28401",
-    "serviceRadiusMiles": 20,
-    "rating": 4.9,
-    "reviewCount": 300,
+    "phone": "5550100199",
+    "zip": "27863",
+    "serviceRadiusMiles": 40,
+    "rating": 3.9,
+    "reviewCount": 140,
     "categories": [
       "electrical"
     ]

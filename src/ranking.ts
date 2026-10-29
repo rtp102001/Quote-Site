@@ -25,13 +25,13 @@ export interface RankedContractor extends ContractorRow {
  *   rating_component    = Bayesian-adjusted rating / 5, prior 4.0 stars weighted as 10 reviews
  *                         ((rating*n + 4.0*10) / (n + 10)) / 5  -> a 5.0 with 2 reviews doesn't beat a 4.8 with 300
  *   volume_component    = min(1, log10(1 + n) / log10(1 + 500))
- *   proximity_component = max(0, 1 - distance / MAX_DISTANCE_MILES)   (MAX = 75)
+ *   proximity_component = max(0, 1 - distance / MAX_DISTANCE_MILES)   (MAX = 50)
  *   score = 0.50 * rating + 0.20 * volume + 0.30 * proximity
  * Contractors are only eligible if the homeowner ZIP is within their own service radius
  * (and within MAX_DISTANCE_MILES). Ties break by distance, then id.
  */
 export const WEIGHTS = { rating: 0.5, volume: 0.2, proximity: 0.3 } as const;
-export const MAX_DISTANCE_MILES = 75;
+export const MAX_DISTANCE_MILES = 50;
 export const TOP_N = 10;
 
 export function scoreContractor(c: ContractorRow, distance: number) {

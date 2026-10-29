@@ -25,6 +25,13 @@ fd2.append("photos", new Blob([png], { type: "image/png" }), "a.png"); fd2.appen
 res = await fetch(`${BASE}/api/quote`, { method: "POST", body: fd2, headers: { Accept: "application/json" } });
 check(res.status === 400, `2 photos rejected -> ${res.status}`);
 
+// Negative: ZIP outside Johnston County (Raleigh 27601)
+const fd3 = new FormData();
+for (const [k, v] of fd.entries()) fd3.append(k, k === "zip" ? "27601" : v);
+res = await fetch(`${BASE}/api/quote`, { method: "POST", body: fd3, headers: { Accept: "application/json" } });
+const out = await res.json();
+check(res.status === 400 && out.errors.some((e) => e.includes("Johnston County")), `out-of-county ZIP 27601 rejected with friendly message -> ${res.status}`);
+
 let outbox = await (await fetch(`${BASE}/dev/outbox.json`)).json();
 const verify = outbox.find((m) => m.to_address === email && m.kind === "verify");
 check(!!verify, "verification email rendered in mock outbox");
@@ -53,6 +60,6 @@ check(last.status === 429, `4th submission from same email rate-limited -> ${las
 
 writeFileSync("E2E_RESULTS.md", `# E2E results\n\nRun: ${new Date().toString()}\nBase: ${BASE}\n\n` +
   log.map((l) => `- ${l}`).join("\n") +
-  `\n\n## Top 10 selected (Septic & Plumbing, ZIP 27542 Kenly)\n\n| # | Business | Rating | Reviews | Miles | Score |\n|---|---|---|---|---|---|\n` +
+  `\n\n## Top 10 selected (Septic & Plumbing, ZIP 27542 Kenly, Johnston County)\n\n| # | Business | Rating | Reviews | Miles | Score |\n|---|---|---|---|---|---|\n` +
   ver.contractors.map((c, i) => `| ${i + 1} | ${c.business_name} | ${c.rating} | ${c.review_count} | ${c.distance_miles} | ${c.score} |`).join("\n") +
   `\n\n## Sample rendered lead email (text)\n\n\`\`\`\nSubject: ${leads[0].subject}\nTo: ${leads[0].to_address}\nReply-To: ${leads[0].reply_to}\n\n${leads[0].text_body}\n\`\`\`\n`);
