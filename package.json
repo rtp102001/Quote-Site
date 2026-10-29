@@ -1,0 +1,26 @@
+{
+  "name": "quotelocal-nc",
+  "private": true,
+  "version": "0.1.0",
+  "description": "QuoteLocal NC — local quote requests for North Carolina homeowners.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "wrangler dev --port 8787 --ip 127.0.0.1",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "generate:data": "node scripts/generate-data.mjs",
+    "db:migrate": "wrangler d1 migrations apply quotelocal --local",
+    "db:seed": "wrangler d1 execute quotelocal --local --file=./seed/contractors.sql",
+    "db:reset": "rm -rf .wrangler/state && npm run db:migrate && npm run db:seed",
+    "e2e": "node scripts/e2e.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251014.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4",
+    "wrangler": "^4.45.0"
+  }
+}

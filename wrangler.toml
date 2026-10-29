@@ -1,0 +1,28 @@
+name = "quotelocal"
+main = "src/index.ts"
+compatibility_date = "2025-09-01"
+
+# Local MVP defaults. Test Turnstile keys are the public Cloudflare dummy keys.
+# Do not wrangler deploy or apply D1 migrations with --remote from this setup
+# until the README deploy prerequisites are done with real secrets.
+[vars]
+ENVIRONMENT = "development"
+EMAIL_PROVIDER = "console"
+EMAIL_FROM = "QuoteLocal NC <quotes@example.com>"
+PUBLIC_BASE_URL = "http://127.0.0.1:8787"
+TURNSTILE_SITE_KEY = "1x00000000000000000000AA"
+TURNSTILE_SECRET_KEY = "1x0000000000000000000000000000000AA"
+RESEND_API_KEY = ""
+CLOUDFLARE_ACCOUNT_ID = ""
+CLOUDFLARE_API_TOKEN = ""
+CLOUDFLARE_EMAIL_API_URL = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "quotelocal"
+database_id = "00000000-0000-4000-8000-000000000001"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "PHOTOS"
+bucket_name = "quotelocal-photos"
