@@ -24,7 +24,7 @@ src/email.ts        EmailSender interface, Console/Resend/Cloudflare senders, em
 src/ratelimit.ts    D1 fixed-window rate limits
 src/turnstile.ts    Server-side Turnstile siteverify
 src/categories.ts   The 5 launch categories
-data/nc-zips.json   Bundled NC ZIP → approx lat/lon table (~290 ZIPs, city-center approximations)
+data/nc-zips.json   Bundled NC ZIP → approx lat/lon table (267 ZIPs, city-center approximations)
 data/contractors.json, seed/contractors.sql   SAMPLE/FAKE contractors (100: 20 per category)
 scripts/generate-data.mjs   Regenerates the ZIP table and sample seed
 scripts/e2e.mjs     End-to-end test against wrangler dev → writes E2E_RESULTS.md
